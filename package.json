@@ -1,0 +1,41 @@
+{
+  "name": "swagger-merge-cli",
+  "version": "0.0.1",
+  "description": "Merge multiple Swagger specification files into one.",
+  "main": "index.js",
+  "bin": {
+    "swagger-merge": "bin/swagger-merge"
+  },
+  "dependencies": {
+    "meow": "^4.0.0",
+    "swagger-merge": "^0.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo 'TODO'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguelmota/swagger-merge-cli"
+  },
+  "keywords": [
+    "swagger",
+    "openapi",
+    "merge",
+    "combine",
+    "join",
+    "spec",
+    "yaml",
+    "json"
+  ],
+  "author": {
+    "name": "Miguel Mota",
+    "email": "hello@miguelmota.com",
+    "url": "https://miguelmota.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miguelmota/swagger-merge-cli/issues"
+  },
+  "homepage": "https://github.com/miguelmota/swagger-merge-cli"
+}

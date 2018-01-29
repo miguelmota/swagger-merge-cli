@@ -13,6 +13,8 @@ npm install -g swagger-merge-cli
 ```bash
 $ swagger-merge --help
 
+  Merge multiple Swagger specification files into one.
+
   Usage
     $ swagger-merge [files...]
 
@@ -37,15 +39,7 @@ $ swagger-merge --help
     }
 
     $ swagger-merge -v "1.0.0" -t "My Api" -d "My description" -s https,http -h example.com -p "/v1/" swagger1.json swagger2.json -o swagger.json
-    {
-      "swagger": "2.0",
-      "info": {
-        "title": "My Api",
-        "description": "My description",
-        "version": "1.0.0"
-      },
-      ...
-    }
+    Wrote to /absolute_path/swagger.json
 
     $ swagger-merge --version
     0.0.1

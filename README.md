@@ -19,7 +19,7 @@ $ swagger-merge --help
     $ swagger-merge [files...]
 
   Options
-    --host, -h  Hostname
+    --host, -h  Host
     --path, -p  Base path
     --infoversion, -v  Version
     --title, -t  Title

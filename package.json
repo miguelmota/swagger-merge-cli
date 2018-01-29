@@ -1,6 +1,6 @@
 {
   "name": "swagger-merge-cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Merge multiple Swagger specification files into one.",
   "main": "index.js",
   "bin": {

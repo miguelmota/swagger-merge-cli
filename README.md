@@ -1,6 +1,6 @@
 # swagger-merge-cli
 
-> Merge multiple Swagger specification files into one.
+> Merge multiple [Swagger](https://swagger.io/) specification files into one.
 
 ## Install
 
